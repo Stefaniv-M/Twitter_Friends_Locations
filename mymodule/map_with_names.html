@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_67802fc7ecac45ecbd93e2d008b072da {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_67802fc7ecac45ecbd93e2d008b072da" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_67802fc7ecac45ecbd93e2d008b072da = L.map(
+                                  'map_67802fc7ecac45ecbd93e2d008b072da',
+                                  {center: [49.817545,24.023932],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_0578df8a70064fda8ccb10e42e750a47 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_67802fc7ecac45ecbd93e2d008b072da);
+        
+    
+            var feature_group_788c73963a5245569375272b15e5e30d = L.featureGroup(
+                ).addTo(map_67802fc7ecac45ecbd93e2d008b072da);
+        
+    
+
+            var marker_196a6582c0c643ac91472384e1b9928a = L.marker(
+                [36.29885175,-82.3591933141095],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_cde8ff8646f4479a97becc1809f2476a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_196a6582c0c643ac91472384e1b9928a.setIcon(icon_cde8ff8646f4479a97becc1809f2476a);
+            
+    
+            var popup_f1050bdfb2f34c6c83220cd2b3634e67 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e0a3341656c4716947edaf86a72091f = $('<div id="html_0e0a3341656c4716947edaf86a72091f" style="width: 100.0%; height: 100.0%;">Sarah Sanders</div>')[0];
+                popup_f1050bdfb2f34c6c83220cd2b3634e67.setContent(html_0e0a3341656c4716947edaf86a72091f);
+            
+
+            marker_196a6582c0c643ac91472384e1b9928a.bindPopup(popup_f1050bdfb2f34c6c83220cd2b3634e67);
+
+            
+        
+    
+
+            var marker_66d6463b976047fc94a5455a79b74713 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_e8e720171e0c48da850d4caf77bbff0b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_66d6463b976047fc94a5455a79b74713.setIcon(icon_e8e720171e0c48da850d4caf77bbff0b);
+            
+    
+            var popup_f14db2d29aba4fcda9aaec24c7375d9d = L.popup({maxWidth: '300'});
+
+            
+                var html_13513b1cf9394f668056089c6f09370a = $('<div id="html_13513b1cf9394f668056089c6f09370a" style="width: 100.0%; height: 100.0%;">Tucker Carlson</div>')[0];
+                popup_f14db2d29aba4fcda9aaec24c7375d9d.setContent(html_13513b1cf9394f668056089c6f09370a);
+            
+
+            marker_66d6463b976047fc94a5455a79b74713.bindPopup(popup_f14db2d29aba4fcda9aaec24c7375d9d);
+
+            
+        
+    
+
+            var marker_21adb6c084e840b194f476a55879832e = L.marker(
+                [36.29885175,-82.3591933141095],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_9233381ef6504ac8802c91dfe08a51ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21adb6c084e840b194f476a55879832e.setIcon(icon_9233381ef6504ac8802c91dfe08a51ba);
+            
+    
+            var popup_06c2f4bbb1da4d0b8cbd37e7eb388e23 = L.popup({maxWidth: '300'});
+
+            
+                var html_016194ac017b4b698dad88e37b25020f = $('<div id="html_016194ac017b4b698dad88e37b25020f" style="width: 100.0%; height: 100.0%;">The White House</div>')[0];
+                popup_06c2f4bbb1da4d0b8cbd37e7eb388e23.setContent(html_016194ac017b4b698dad88e37b25020f);
+            
+
+            marker_21adb6c084e840b194f476a55879832e.bindPopup(popup_06c2f4bbb1da4d0b8cbd37e7eb388e23);
+
+            
+        
+    
+
+            var marker_e417d1d7f26e4d7c89e51efc09ac5a66 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_ebc9bc60aad148efa4dccb59ee27aad5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e417d1d7f26e4d7c89e51efc09ac5a66.setIcon(icon_ebc9bc60aad148efa4dccb59ee27aad5);
+            
+    
+            var popup_08efbab0f2ad444fae908192a0cdfeaa = L.popup({maxWidth: '300'});
+
+            
+                var html_e6258508b1e046aabd9532af3d1d88f9 = $('<div id="html_e6258508b1e046aabd9532af3d1d88f9" style="width: 100.0%; height: 100.0%;">Dan Scavino Jr.</div>')[0];
+                popup_08efbab0f2ad444fae908192a0cdfeaa.setContent(html_e6258508b1e046aabd9532af3d1d88f9);
+            
+
+            marker_e417d1d7f26e4d7c89e51efc09ac5a66.bindPopup(popup_08efbab0f2ad444fae908192a0cdfeaa);
+
+            
+        
+    
+
+            var marker_6c90bc97c8d249e38b0ecca722562e28 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_2dae5491c4ae49f1852e4db8913d5230 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c90bc97c8d249e38b0ecca722562e28.setIcon(icon_2dae5491c4ae49f1852e4db8913d5230);
+            
+    
+            var popup_fdc8fc0847b4489bac72358747001a13 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e94e91fe7b14ae19066438842357823 = $('<div id="html_2e94e91fe7b14ae19066438842357823" style="width: 100.0%; height: 100.0%;">Kellyanne Conway</div>')[0];
+                popup_fdc8fc0847b4489bac72358747001a13.setContent(html_2e94e91fe7b14ae19066438842357823);
+            
+
+            marker_6c90bc97c8d249e38b0ecca722562e28.bindPopup(popup_fdc8fc0847b4489bac72358747001a13);
+
+            
+        
+    
+
+            var marker_1b2921c89df745818f149245a2a3301a = L.marker(
+                [38.89366125,-76.987883253882],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_87338601500a412a92bc99abfd03f324 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b2921c89df745818f149245a2a3301a.setIcon(icon_87338601500a412a92bc99abfd03f324);
+            
+    
+            var popup_9fe6cd7fdf174c7ab81b56440d35f7b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_cbb72100b8b74ed08b1c74541063ab25 = $('<div id="html_cbb72100b8b74ed08b1c74541063ab25" style="width: 100.0%; height: 100.0%;">Reince Priebus</div>')[0];
+                popup_9fe6cd7fdf174c7ab81b56440d35f7b5.setContent(html_cbb72100b8b74ed08b1c74541063ab25);
+            
+
+            marker_1b2921c89df745818f149245a2a3301a.bindPopup(popup_9fe6cd7fdf174c7ab81b56440d35f7b5);
+
+            
+        
+    
+
+            var marker_366f4bffdacf46fa969e7badc0f804b0 = L.marker(
+                [36.7014631,-118.7559974],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_77834b8c83904848911cfafd43ab936f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_366f4bffdacf46fa969e7badc0f804b0.setIcon(icon_77834b8c83904848911cfafd43ab936f);
+            
+    
+            var popup_fc64bba1c2b74cdd88234526323d3895 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb505ddd1bb24ad499973e49b07ce9dc = $('<div id="html_bb505ddd1bb24ad499973e49b07ce9dc" style="width: 100.0%; height: 100.0%;">Roma Downey</div>')[0];
+                popup_fc64bba1c2b74cdd88234526323d3895.setContent(html_bb505ddd1bb24ad499973e49b07ce9dc);
+            
+
+            marker_366f4bffdacf46fa969e7badc0f804b0.bindPopup(popup_fc64bba1c2b74cdd88234526323d3895);
+
+            
+        
+    
+
+            var marker_8085fbf83fb8498d97e511e66460e34c = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_87187db6ecd14953a25c69b862f82140 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8085fbf83fb8498d97e511e66460e34c.setIcon(icon_87187db6ecd14953a25c69b862f82140);
+            
+    
+            var popup_be4bd79b75a94c4dba752bda7ab75d4f = L.popup({maxWidth: '300'});
+
+            
+                var html_6371934e12864b16b4fe832b33a0b0bf = $('<div id="html_6371934e12864b16b4fe832b33a0b0bf" style="width: 100.0%; height: 100.0%;">The Trump Organization</div>')[0];
+                popup_be4bd79b75a94c4dba752bda7ab75d4f.setContent(html_6371934e12864b16b4fe832b33a0b0bf);
+            
+
+            marker_8085fbf83fb8498d97e511e66460e34c.bindPopup(popup_be4bd79b75a94c4dba752bda7ab75d4f);
+
+            
+        
+    
+
+            var marker_234cbbb535404b77a71f508e6e4f2584 = L.marker(
+                [38.89366125,-76.987883253882],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_1bcffa3f49704e43a93f1840f1d5a5eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_234cbbb535404b77a71f508e6e4f2584.setIcon(icon_1bcffa3f49704e43a93f1840f1d5a5eb);
+            
+    
+            var popup_ba7c731ccadc4ea6b096119e8936e65b = L.popup({maxWidth: '300'});
+
+            
+                var html_1b72424a78c042639b93d00fdc796eb1 = $('<div id="html_1b72424a78c042639b93d00fdc796eb1" style="width: 100.0%; height: 100.0%;">Laura Ingraham</div>')[0];
+                popup_ba7c731ccadc4ea6b096119e8936e65b.setContent(html_1b72424a78c042639b93d00fdc796eb1);
+            
+
+            marker_234cbbb535404b77a71f508e6e4f2584.bindPopup(popup_ba7c731ccadc4ea6b096119e8936e65b);
+
+            
+        
+    
+
+            var marker_d09627e2abfc4d848f359979f155c872 = L.marker(
+                [39.7837304,-100.4458825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_c2347eedbc42460f9633e9a44b50d883 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d09627e2abfc4d848f359979f155c872.setIcon(icon_c2347eedbc42460f9633e9a44b50d883);
+            
+    
+            var popup_c0d0d9486e274c0f9de66aaa172b5e73 = L.popup({maxWidth: '300'});
+
+            
+                var html_e93db17b7eeb46a5b1ba622faa004359 = $('<div id="html_e93db17b7eeb46a5b1ba622faa004359" style="width: 100.0%; height: 100.0%;">Official Team Trump</div>')[0];
+                popup_c0d0d9486e274c0f9de66aaa172b5e73.setContent(html_e93db17b7eeb46a5b1ba622faa004359);
+            
+
+            marker_d09627e2abfc4d848f359979f155c872.bindPopup(popup_c0d0d9486e274c0f9de66aaa172b5e73);
+
+            
+        
+    
+
+            var marker_b6ccde8366f34fd28e77b299bcc42e08 = L.marker(
+                [39.7837304,-100.4458825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_2b0e677fd574447aafb2757a6041829e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6ccde8366f34fd28e77b299bcc42e08.setIcon(icon_2b0e677fd574447aafb2757a6041829e);
+            
+    
+            var popup_02eaffa26a144ac284724186cc4a7ff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_af333a9d4f644e648659648aba95be6e = $('<div id="html_af333a9d4f644e648659648aba95be6e" style="width: 100.0%; height: 100.0%;">DRUDGE REPORT</div>')[0];
+                popup_02eaffa26a144ac284724186cc4a7ff8.setContent(html_af333a9d4f644e648659648aba95be6e);
+            
+
+            marker_b6ccde8366f34fd28e77b299bcc42e08.bindPopup(popup_02eaffa26a144ac284724186cc4a7ff8);
+
+            
+        
+    
+
+            var marker_b292b7d0f690436c81ea41ea0744b6d8 = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_bcdfdf48b5eb4e02a6436f935163401e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b292b7d0f690436c81ea41ea0744b6d8.setIcon(icon_bcdfdf48b5eb4e02a6436f935163401e);
+            
+    
+            var popup_2e9428b4f5e04dbbbd9e4f9fe731f97e = L.popup({maxWidth: '300'});
+
+            
+                var html_2c2f6583ecd74d9589bb6fcde83e5bff = $('<div id="html_2c2f6583ecd74d9589bb6fcde83e5bff" style="width: 100.0%; height: 100.0%;">Lara Trump</div>')[0];
+                popup_2e9428b4f5e04dbbbd9e4f9fe731f97e.setContent(html_2c2f6583ecd74d9589bb6fcde83e5bff);
+            
+
+            marker_b292b7d0f690436c81ea41ea0744b6d8.bindPopup(popup_2e9428b4f5e04dbbbd9e4f9fe731f97e);
+
+            
+        
+    
+
+            var marker_011ee1d62fcc404b96f13002b155c846 = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_b4c50fecab2d452ea944e5bce1751f58 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_011ee1d62fcc404b96f13002b155c846.setIcon(icon_b4c50fecab2d452ea944e5bce1751f58);
+            
+    
+            var popup_cfcaa35f97b64475a00801c1434a7c25 = L.popup({maxWidth: '300'});
+
+            
+                var html_975cd78c026e4eb2bd2f9583b126f0e5 = $('<div id="html_975cd78c026e4eb2bd2f9583b126f0e5" style="width: 100.0%; height: 100.0%;">Sean Hannity</div>')[0];
+                popup_cfcaa35f97b64475a00801c1434a7c25.setContent(html_975cd78c026e4eb2bd2f9583b126f0e5);
+            
+
+            marker_011ee1d62fcc404b96f13002b155c846.bindPopup(popup_cfcaa35f97b64475a00801c1434a7c25);
+
+            
+        
+    
+
+            var marker_be15e49f93ca4645a3fbc871155bcfbf = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_e3c7854f068b4e39ba9d54f08152b90e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_be15e49f93ca4645a3fbc871155bcfbf.setIcon(icon_e3c7854f068b4e39ba9d54f08152b90e);
+            
+    
+            var popup_e998ad9ad40942ef86bac7987f5ed524 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e3da865c063432d98a9b4b823d3c8ef = $('<div id="html_1e3da865c063432d98a9b4b823d3c8ef" style="width: 100.0%; height: 100.0%;">Corey R. Lewandowski</div>')[0];
+                popup_e998ad9ad40942ef86bac7987f5ed524.setContent(html_1e3da865c063432d98a9b4b823d3c8ef);
+            
+
+            marker_be15e49f93ca4645a3fbc871155bcfbf.bindPopup(popup_e998ad9ad40942ef86bac7987f5ed524);
+
+            
+        
+    
+
+            var marker_a54d867637ae4b6da895e270270d7c71 = L.marker(
+                [34.0768214,-118.2638178],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_0295f70d1f4c4c9b8dfac39f99f32fef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a54d867637ae4b6da895e270270d7c71.setIcon(icon_0295f70d1f4c4c9b8dfac39f99f32fef);
+            
+    
+            var popup_38123c93cf8f46f08cb307f5f611cbda = L.popup({maxWidth: '300'});
+
+            
+                var html_d3ec57c3f1ce4319a1e872960b4d9175 = $('<div id="html_d3ec57c3f1ce4319a1e872960b4d9175" style="width: 100.0%; height: 100.0%;">Ann Coulter</div>')[0];
+                popup_38123c93cf8f46f08cb307f5f611cbda.setContent(html_d3ec57c3f1ce4319a1e872960b4d9175);
+            
+
+            marker_a54d867637ae4b6da895e270270d7c71.bindPopup(popup_38123c93cf8f46f08cb307f5f611cbda);
+
+            
+        
+    
+
+            var marker_0e64076aea7b44b58feca53aa632c52e = L.marker(
+                [39.7837304,-100.4458825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_8d7ff053a78f46da852c4608c5abd25f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0e64076aea7b44b58feca53aa632c52e.setIcon(icon_8d7ff053a78f46da852c4608c5abd25f);
+            
+    
+            var popup_f4d6d2e8b69b4fada47b0db3b1606b88 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec00b0a587a24270b705731fe15aee9f = $('<div id="html_ec00b0a587a24270b705731fe15aee9f" style="width: 100.0%; height: 100.0%;">Diamond and Silk\u00ae</div>')[0];
+                popup_f4d6d2e8b69b4fada47b0db3b1606b88.setContent(html_ec00b0a587a24270b705731fe15aee9f);
+            
+
+            marker_0e64076aea7b44b58feca53aa632c52e.bindPopup(popup_f4d6d2e8b69b4fada47b0db3b1606b88);
+
+            
+        
+    
+
+            var marker_94b6dd27bb594efb8d6646974b90a94f = L.marker(
+                [37.8730558,-122.2648481],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_2e92102c632e438bb885ecd86fbb36f1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94b6dd27bb594efb8d6646974b90a94f.setIcon(icon_2e92102c632e438bb885ecd86fbb36f1);
+            
+    
+            var popup_2e94dd47f0bf4847b4ad8423d08cf7a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6759fdcf5d614fdd80a42abb508ba77a = $('<div id="html_6759fdcf5d614fdd80a42abb508ba77a" style="width: 100.0%; height: 100.0%;">KATRINA CAMPINS</div>')[0];
+                popup_2e94dd47f0bf4847b4ad8423d08cf7a5.setContent(html_6759fdcf5d614fdd80a42abb508ba77a);
+            
+
+            marker_94b6dd27bb594efb8d6646974b90a94f.bindPopup(popup_2e94dd47f0bf4847b4ad8423d08cf7a5);
+
+            
+        
+    
+
+            var marker_cf9e278ce44d455895e7379766235fa3 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_77d7f51cc7a64b9ca0a8bb01fd6a077a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf9e278ce44d455895e7379766235fa3.setIcon(icon_77d7f51cc7a64b9ca0a8bb01fd6a077a);
+            
+    
+            var popup_181ecbe104a54cd6adf7602cc9d512f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ec0a8bb5ec4422a8fc4a67d06f6d141 = $('<div id="html_3ec0a8bb5ec4422a8fc4a67d06f6d141" style="width: 100.0%; height: 100.0%;">Katrina Pierson</div>')[0];
+                popup_181ecbe104a54cd6adf7602cc9d512f9.setContent(html_3ec0a8bb5ec4422a8fc4a67d06f6d141);
+            
+
+            marker_cf9e278ce44d455895e7379766235fa3.bindPopup(popup_181ecbe104a54cd6adf7602cc9d512f9);
+
+            
+        
+    
+
+            var marker_2b9769595cc84bb887e7686be59881a4 = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_3f5b50bbc9404638b55857987be054cb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b9769595cc84bb887e7686be59881a4.setIcon(icon_3f5b50bbc9404638b55857987be054cb);
+            
+    
+            var popup_17d5a5f0ecea4243b853a9d8ad3acd7d = L.popup({maxWidth: '300'});
+
+            
+                var html_d9f9dd216ae846c1be3f04da9b22b29d = $('<div id="html_d9f9dd216ae846c1be3f04da9b22b29d" style="width: 100.0%; height: 100.0%;">Michael Cohen</div>')[0];
+                popup_17d5a5f0ecea4243b853a9d8ad3acd7d.setContent(html_d9f9dd216ae846c1be3f04da9b22b29d);
+            
+
+            marker_2b9769595cc84bb887e7686be59881a4.bindPopup(popup_17d5a5f0ecea4243b853a9d8ad3acd7d);
+
+            
+        
+    
+
+            var marker_c23af454c20d48b6a06dcc4edee92b48 = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_d5e06cd62e34465b85af44e147dad505 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c23af454c20d48b6a06dcc4edee92b48.setIcon(icon_d5e06cd62e34465b85af44e147dad505);
+            
+    
+            var popup_687e97dfc161464d85232e7a84d5efdb = L.popup({maxWidth: '300'});
+
+            
+                var html_0e68720649a9401094ea196da56f2ea9 = $('<div id="html_0e68720649a9401094ea196da56f2ea9" style="width: 100.0%; height: 100.0%;">FOX & friends</div>')[0];
+                popup_687e97dfc161464d85232e7a84d5efdb.setContent(html_0e68720649a9401094ea196da56f2ea9);
+            
+
+            marker_c23af454c20d48b6a06dcc4edee92b48.bindPopup(popup_687e97dfc161464d85232e7a84d5efdb);
+
+            
+        
+    
+
+            var marker_2bf17954270747dba58c30af676ee00b = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_069d0207d91e4ce89a3d38bd1517b860 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2bf17954270747dba58c30af676ee00b.setIcon(icon_069d0207d91e4ce89a3d38bd1517b860);
+            
+    
+            var popup_51f2b6ffbc414d62a7833ecda73d821e = L.popup({maxWidth: '300'});
+
+            
+                var html_454c00897ee045a58ff5d388b0143169 = $('<div id="html_454c00897ee045a58ff5d388b0143169" style="width: 100.0%; height: 100.0%;">MELANIA TRUMP</div>')[0];
+                popup_51f2b6ffbc414d62a7833ecda73d821e.setContent(html_454c00897ee045a58ff5d388b0143169);
+            
+
+            marker_2bf17954270747dba58c30af676ee00b.bindPopup(popup_51f2b6ffbc414d62a7833ecda73d821e);
+
+            
+        
+    
+
+            var marker_e4f922300ee54ba4928461ad82333ea3 = L.marker(
+                [51.494896,-3.457787],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_3e1de00cd53f4f3cad6e1f826a50d2c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4f922300ee54ba4928461ad82333ea3.setIcon(icon_3e1de00cd53f4f3cad6e1f826a50d2c7);
+            
+    
+            var popup_7e8dc0932a4640769b06302a4ceac46f = L.popup({maxWidth: '300'});
+
+            
+                var html_821fbfa593794cbf846c197f2d00c3cb = $('<div id="html_821fbfa593794cbf846c197f2d00c3cb" style="width: 100.0%; height: 100.0%;">Geraldo Rivera</div>')[0];
+                popup_7e8dc0932a4640769b06302a4ceac46f.setContent(html_821fbfa593794cbf846c197f2d00c3cb);
+            
+
+            marker_e4f922300ee54ba4928461ad82333ea3.bindPopup(popup_7e8dc0932a4640769b06302a4ceac46f);
+
+            
+        
+    
+
+            var marker_0cc6b99737704f34ad5c79fbb825645d = L.marker(
+                [40.7306458,-73.9866136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_ffd8df0795364fdaa638409f5d500491 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0cc6b99737704f34ad5c79fbb825645d.setIcon(icon_ffd8df0795364fdaa638409f5d500491);
+            
+    
+            var popup_7b07b6090b5846b494a7839b780dc3fc = L.popup({maxWidth: '300'});
+
+            
+                var html_1107a45cde74409b98b228fdaf0eac9a = $('<div id="html_1107a45cde74409b98b228fdaf0eac9a" style="width: 100.0%; height: 100.0%;">Eric Bolling</div>')[0];
+                popup_7b07b6090b5846b494a7839b780dc3fc.setContent(html_1107a45cde74409b98b228fdaf0eac9a);
+            
+
+            marker_0cc6b99737704f34ad5c79fbb825645d.bindPopup(popup_7b07b6090b5846b494a7839b780dc3fc);
+
+            
+        
+    
+
+            var marker_c50d2e7d8e914036b918b5eb13df066e = L.marker(
+                [34.054935,-118.244476],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_dd9ba95eb77941b6ac32efb9e7ea8d06 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c50d2e7d8e914036b918b5eb13df066e.setIcon(icon_dd9ba95eb77941b6ac32efb9e7ea8d06);
+            
+    
+            var popup_2963caf556c5416191b019cf62a9ddcd = L.popup({maxWidth: '300'});
+
+            
+                var html_9e4822483e0e44bcac759176bf18b23d = $('<div id="html_9e4822483e0e44bcac759176bf18b23d" style="width: 100.0%; height: 100.0%;">Mark Burnett</div>')[0];
+                popup_2963caf556c5416191b019cf62a9ddcd.setContent(html_9e4822483e0e44bcac759176bf18b23d);
+            
+
+            marker_c50d2e7d8e914036b918b5eb13df066e.bindPopup(popup_2963caf556c5416191b019cf62a9ddcd);
+
+            
+        
+    
+
+            var marker_00dc0249331d469dacb7dc946e15b68f = L.marker(
+                [-28.8166236,24.991639],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_d6118727574f472fbd5d77d340279f6e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_00dc0249331d469dacb7dc946e15b68f.setIcon(icon_d6118727574f472fbd5d77d340279f6e);
+            
+    
+            var popup_55a62f57aefb493bbc35223117c12208 = L.popup({maxWidth: '300'});
+
+            
+                var html_59bc402706024d4fb4c7d7e4abad5c91 = $('<div id="html_59bc402706024d4fb4c7d7e4abad5c91" style="width: 100.0%; height: 100.0%;">Gary Player</div>')[0];
+                popup_55a62f57aefb493bbc35223117c12208.setContent(html_59bc402706024d4fb4c7d7e4abad5c91);
+            
+
+            marker_00dc0249331d469dacb7dc946e15b68f.bindPopup(popup_55a62f57aefb493bbc35223117c12208);
+
+            
+        
+    
+
+            var marker_a75e05af7274459c881505434ccf25a2 = L.marker(
+                [41.0264862,-73.6284598],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_ae8f85924bb24478ba8acc98382f9edc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a75e05af7274459c881505434ccf25a2.setIcon(icon_ae8f85924bb24478ba8acc98382f9edc);
+            
+    
+            var popup_06f00b37dc9e4cb18db5b991beb30656 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c18e900598d415496ace485e69e1f76 = $('<div id="html_5c18e900598d415496ace485e69e1f76" style="width: 100.0%; height: 100.0%;">Vince McMahon</div>')[0];
+                popup_06f00b37dc9e4cb18db5b991beb30656.setContent(html_5c18e900598d415496ace485e69e1f76);
+            
+
+            marker_a75e05af7274459c881505434ccf25a2.bindPopup(popup_06f00b37dc9e4cb18db5b991beb30656);
+
+            
+        
+    
+
+            var marker_d707fefbc792476da628dd5281900385 = L.marker(
+                [25.7742658,-80.1936589],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_d9e9b19dba3c45cd84dc470ed5d61686 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d707fefbc792476da628dd5281900385.setIcon(icon_d9e9b19dba3c45cd84dc470ed5d61686);
+            
+    
+            var popup_dc9262e0197b468081cea9ed7439fdf0 = L.popup({maxWidth: '300'});
+
+            
+                var html_b72d2682b851411db98828c0b74ae0c5 = $('<div id="html_b72d2682b851411db98828c0b74ae0c5" style="width: 100.0%; height: 100.0%;">Trump National Doral</div>')[0];
+                popup_dc9262e0197b468081cea9ed7439fdf0.setContent(html_b72d2682b851411db98828c0b74ae0c5);
+            
+
+            marker_d707fefbc792476da628dd5281900385.bindPopup(popup_dc9262e0197b468081cea9ed7439fdf0);
+
+            
+        
+    
+
+            var marker_c277ae130fe84595b5203c81a3e329dd = L.marker(
+                [35.2270869,-80.8431268],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_523db923bdb0432da619a17823991148 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c277ae130fe84595b5203c81a3e329dd.setIcon(icon_523db923bdb0432da619a17823991148);
+            
+    
+            var popup_4ecf35a4f5ef45cf8a35a54f07d8d18d = L.popup({maxWidth: '300'});
+
+            
+                var html_b559212ba32c40f6becefe32f94e18e3 = $('<div id="html_b559212ba32c40f6becefe32f94e18e3" style="width: 100.0%; height: 100.0%;">Trump Charlotte</div>')[0];
+                popup_4ecf35a4f5ef45cf8a35a54f07d8d18d.setContent(html_b559212ba32c40f6becefe32f94e18e3);
+            
+
+            marker_c277ae130fe84595b5203c81a3e329dd.bindPopup(popup_4ecf35a4f5ef45cf8a35a54f07d8d18d);
+
+            
+        
+    
+
+            var marker_72b460962db7467e9e3c356bf3e8aaa4 = L.marker(
+                [36.1662859,-115.149225],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_c0f8479d3e1047f28f1464b7038c466c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72b460962db7467e9e3c356bf3e8aaa4.setIcon(icon_c0f8479d3e1047f28f1464b7038c466c);
+            
+    
+            var popup_6d85ebe8bc5b4d479c64d3c426871e3d = L.popup({maxWidth: '300'});
+
+            
+                var html_01272cb6148c442882e3a94970ff4ade = $('<div id="html_01272cb6148c442882e3a94970ff4ade" style="width: 100.0%; height: 100.0%;">Trump Vegas Hotel</div>')[0];
+                popup_6d85ebe8bc5b4d479c64d3c426871e3d.setContent(html_01272cb6148c442882e3a94970ff4ade);
+            
+
+            marker_72b460962db7467e9e3c356bf3e8aaa4.bindPopup(popup_6d85ebe8bc5b4d479c64d3c426871e3d);
+
+            
+        
+    
+
+            var marker_180a221d3dfe4a968a2f53f9d634ca69 = L.marker(
+                [41.8755546,-87.6244212],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_89d0bca76459403e957ba98bc1ad74ab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_180a221d3dfe4a968a2f53f9d634ca69.setIcon(icon_89d0bca76459403e957ba98bc1ad74ab);
+            
+    
+            var popup_4b2f8545edc04cff88481970ecec2c9a = L.popup({maxWidth: '300'});
+
+            
+                var html_03dc5611dc5843f7bc19688e1559b291 = $('<div id="html_03dc5611dc5843f7bc19688e1559b291" style="width: 100.0%; height: 100.0%;">Trump Hotel Chicago</div>')[0];
+                popup_4b2f8545edc04cff88481970ecec2c9a.setContent(html_03dc5611dc5843f7bc19688e1559b291);
+            
+
+            marker_180a221d3dfe4a968a2f53f9d634ca69.bindPopup(popup_4b2f8545edc04cff88481970ecec2c9a);
+
+            
+        
+    
+
+            var marker_141e3f777a3747bcab25959ff0c8096b = L.marker(
+                [39.0016194,-77.4032011],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_39193784229c40fa81ff3575b6342d04 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_141e3f777a3747bcab25959ff0c8096b.setIcon(icon_39193784229c40fa81ff3575b6342d04);
+            
+    
+            var popup_d067df5532c24651beb35e7a3dccad73 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f85a50d64774aedb80acc7cd7be912d = $('<div id="html_3f85a50d64774aedb80acc7cd7be912d" style="width: 100.0%; height: 100.0%;">Trump Washington DC</div>')[0];
+                popup_d067df5532c24651beb35e7a3dccad73.setContent(html_3f85a50d64774aedb80acc7cd7be912d);
+            
+
+            marker_141e3f777a3747bcab25959ff0c8096b.bindPopup(popup_d067df5532c24651beb35e7a3dccad73);
+
+            
+        
+    
+
+            var marker_f19251b6172445d8946fbe5d9ff8cc6a = L.marker(
+                [34.054935,-118.244476],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_597b29e3b62444748ec52fea76a1595e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f19251b6172445d8946fbe5d9ff8cc6a.setIcon(icon_597b29e3b62444748ec52fea76a1595e);
+            
+    
+            var popup_1e272093bb2544c9b13d5d055d98b20f = L.popup({maxWidth: '300'});
+
+            
+                var html_9def3ec6f15f4967ba3025ae6045d1f9 = $('<div id="html_9def3ec6f15f4967ba3025ae6045d1f9" style="width: 100.0%; height: 100.0%;">Trump Los Angeles</div>')[0];
+                popup_1e272093bb2544c9b13d5d055d98b20f.setContent(html_9def3ec6f15f4967ba3025ae6045d1f9);
+            
+
+            marker_f19251b6172445d8946fbe5d9ff8cc6a.bindPopup(popup_1e272093bb2544c9b13d5d055d98b20f);
+
+            
+        
+    
+
+            var marker_9e596395ae3d4c29bd32b97ec43b9296 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_63a0d4277f3f49bb85c025c2d219e67c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e596395ae3d4c29bd32b97ec43b9296.setIcon(icon_63a0d4277f3f49bb85c025c2d219e67c);
+            
+    
+            var popup_9377738206314003b1b1b5b2839a8819 = L.popup({maxWidth: '300'});
+
+            
+                var html_805d7818b2dd4a8d9eee7b64ee442fe6 = $('<div id="html_805d7818b2dd4a8d9eee7b64ee442fe6" style="width: 100.0%; height: 100.0%;">Greta Van Susteren</div>')[0];
+                popup_9377738206314003b1b1b5b2839a8819.setContent(html_805d7818b2dd4a8d9eee7b64ee442fe6);
+            
+
+            marker_9e596395ae3d4c29bd32b97ec43b9296.bindPopup(popup_9377738206314003b1b1b5b2839a8819);
+
+            
+        
+    
+
+            var marker_a920612bb1a24c8a9d3c21f321676dd0 = L.marker(
+                [51.4490416,0.152263426620371],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_f441908219a34a738f16734068c806f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a920612bb1a24c8a9d3c21f321676dd0.setIcon(icon_f441908219a34a738f16734068c806f2);
+            
+    
+            var popup_595fbc9ecf10428d8b665347323a0545 = L.popup({maxWidth: '300'});
+
+            
+                var html_16cf611d27344594b9cfd5afa52fde48 = $('<div id="html_16cf611d27344594b9cfd5afa52fde48" style="width: 100.0%; height: 100.0%;">Piers Morgan</div>')[0];
+                popup_595fbc9ecf10428d8b665347323a0545.setContent(html_16cf611d27344594b9cfd5afa52fde48);
+            
+
+            marker_a920612bb1a24c8a9d3c21f321676dd0.bindPopup(popup_595fbc9ecf10428d8b665347323a0545);
+
+            
+        
+    
+
+            var marker_c08a99956cb447a0bd112b70dbc95701 = L.marker(
+                [38.8949549,-77.0366456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_788c73963a5245569375272b15e5e30d);
+            
+    
+
+                var icon_ba506fc68648408b80f322d4638f7bb0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c08a99956cb447a0bd112b70dbc95701.setIcon(icon_ba506fc68648408b80f322d4638f7bb0);
+            
+    
+            var popup_775e7dfb42544440aa57d6d3b009aec6 = L.popup({maxWidth: '300'});
+
+            
+                var html_1cb92041cc584495a2325d31e4d2704a = $('<div id="html_1cb92041cc584495a2325d31e4d2704a" style="width: 100.0%; height: 100.0%;">Ivanka Trump</div>')[0];
+                popup_775e7dfb42544440aa57d6d3b009aec6.setContent(html_1cb92041cc584495a2325d31e4d2704a);
+            
+
+            marker_c08a99956cb447a0bd112b70dbc95701.bindPopup(popup_775e7dfb42544440aa57d6d3b009aec6);
+
+            
+        
+    
+            var feature_group_1eb560edcb76413b974e5a7901450a84 = L.featureGroup(
+                ).addTo(map_67802fc7ecac45ecbd93e2d008b072da);
+        
+    
+            var layer_control_746ac640cbf743a49e4b6827554d2d3a = {
+                base_layers : { "mapboxbright" : tile_layer_0578df8a70064fda8ccb10e42e750a47, },
+                overlays : { "Names" : feature_group_788c73963a5245569375272b15e5e30d,"Empty Layer" : feature_group_1eb560edcb76413b974e5a7901450a84, }
+                };
+            L.control.layers(
+                layer_control_746ac640cbf743a49e4b6827554d2d3a.base_layers,
+                layer_control_746ac640cbf743a49e4b6827554d2d3a.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_67802fc7ecac45ecbd93e2d008b072da);
+        
+</script>
